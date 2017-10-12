@@ -1,5 +1,5 @@
 AC_INIT([Game Pencil Engine], [1.13], [help@pawbyte.com])
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([subdir-objects])
 AC_PROG_CC
 dnl Check for SDL
 SDL_VERSION=2.0.6
